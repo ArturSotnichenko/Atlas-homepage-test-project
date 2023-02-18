@@ -1,0 +1,57 @@
+.section2{
+    display: flex;
+    justify-content: center;
+    background-color:#343638 ;
+    padding: 40px 0 30px 0;
+}
+
+.section2-wrapper{
+    display: flex;
+    gap:30px;
+    width: 80%;
+}
+
+
+.art1-wrapper{
+display: flex;
+flex-direction: column;
+flex: 0 0  40%;
+align-items: flex-end;
+}
+
+.art1-frame{
+    display: flex;
+    width:90%;
+    padding-bottom: 30px;
+}
+.art-txt1{
+    font-size: 22px;
+    line-height: 40px;
+    text-align: right;
+}
+
+
+.art2-wrapper{
+    display: flex;
+    flex: 0 0  60%;
+    gap: 30px;
+}
+
+.art-txt2{
+    
+    width: 70%;
+    font-size: 18px;
+    line-height: 30px;
+
+}
+
+.art2-words{
+    font-size: 20px;
+
+  
+}
+
+
+
+
+

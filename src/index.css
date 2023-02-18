@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Work+Sans&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato';
+    color: #FFFFFF;
+}
+
+.brown-btn {
+    background-color: transparent;
+    color: #d6a43b;
+    border: 1.2px solid #D6A43B;
+    font-size: 18px;
+    line-height: 21.6px;
+    text-align: center;
+    padding: 15px 36px 15px 36px
+}
+
+.w-color-D {
+    color: #D6A43B;
+}
+
+.w-size-20 {
+    font-size: 20px;
+}
+
+.sct3-btn {
+
+    background-color: transparent;
+    color: #343638;
+    border: 1.2px solid #343638;
+    font-size: 18px;
+    line-height: 21.6px;
+    width: 50%;
+    margin-top: 50px;
+    padding: 15px 50px 15px 50px
+}
+

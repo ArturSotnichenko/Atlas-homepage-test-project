@@ -1,0 +1,65 @@
+.section3{
+    display: flex;
+      flex: 2 2 600px;
+    background-image: url('../../assets/images/Team.jpg');
+    background-size: cover;
+    justify-content: center;
+
+}
+
+.section3-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.section3-title{
+    display: flex;
+    justify-content: center;
+font-size: 36px;
+line-height: 139px;
+}
+
+.section3-article{
+    display: flex;
+}
+
+.sct3-art1{
+display: flex;
+justify-content: right;
+text-align: right;
+flex-basis: 50%;
+background-color:#D6A43B ;
+padding: 50px;
+}
+.sct3-art1-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:67%;
+    font-size: 15px;
+    line-height: 30px;
+    align-items: end;
+    }
+
+
+.sct3-btn{
+   
+    background-color: transparent;
+    color: #343638;
+    border: 1.2px solid #343638;  
+    font-size: 18px;
+    line-height: 21.6px;
+    width: 50%;
+margin-top: 50px;
+padding:15px 50px 15px 50px  
+      
+}
+
+.sct3-art2{
+    display: flex;
+}
+
+.sct3-art2-img{
+    width: 80%;
+}

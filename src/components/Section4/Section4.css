@@ -1,0 +1,83 @@
+
+    .section4{
+        display: flex;
+          flex: 2 2 600px;
+        background-image: url('../../assets/images/people.jpg');
+        background-size: cover;
+        justify-content: center;
+    
+    }
+
+    .section4-wrapper{
+        display: flex;
+        width: 80%;
+        flex-direction: column;
+        margin-top: 70px;
+        }
+
+        .sct4-title{
+            display: flex;
+            justify-content: center;
+            font-size: 33px;
+            font-weight: 500;
+            line-height: 139px;
+            margin-bottom: 70px;
+        }
+
+        .sct4-art-wrapper{
+            display: flex;
+           
+        gap:100px
+        }
+
+        .sct4-emblem{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+           align-items: center;
+           gap: 30px;
+            background-color: #D6A43B;
+            width: 50%;
+        }
+
+        .sect4-dtls-wrapper{
+            display: flex;
+            flex-direction: column;
+          
+        }
+
+         .txt4-block{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            width: 70%;
+
+        }
+
+        .sct4-btn{
+            display: flex;
+            justify-content: center;
+            background: transparent;
+            border:1.2px solid #FFFFFF;
+            font-size: 18px;
+            line-height: 12.6px;
+            padding: 15px 70px 15px 70px;
+            cursor: pointer;
+        }
+
+        .sct4-btn1{
+            background-color: transparent;
+            color: #343638;
+            border: 1.2px solid #343638;
+            font-size: 18px;
+            line-height: 21.6px;
+            width: 70%;
+            padding-top: 15px;
+            padding-bottom: 15px;
+         
+
+        }
+
+
+      
+        
