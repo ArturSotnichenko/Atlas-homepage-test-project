@@ -1,0 +1,113 @@
+.section5 {
+    display: flex;
+    flex-direction: column;
+    background-color: #343638;
+    
+}
+
+.post-title {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 139px;
+   
+
+}
+
+
+.post-itam-frame{
+   display:flex;
+   justify-content: center; 
+
+}
+
+.post-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.PostImg-frame {
+    display: flex;
+    position: relative;
+padding-right: 90px;
+
+}
+
+.PostImg {
+    display: flex;
+    width: 280px;
+    height: 286px;
+}
+
+
+.post {
+    display: flex;
+   padding-bottom: 20px; 
+}
+
+
+
+
+.post__content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    position: absolute;
+    top: 70px;
+    left: 180px;
+    background-color: #D6A43B;
+    width: 187px;
+    height: 178px;
+
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 20px;
+
+}
+
+.post-hover{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    position: absolute;
+    top: 70px;
+    left: 180px;
+    background-color: white;
+    background-image: url('../../assets/icons/Arrow.svg') ;
+    background-repeat: no-repeat;
+     background-position: center center;
+    width: 187px;
+    height: 178px;
+   
+}
+
+.post__content:hover{
+    opacity: 0;
+    cursor: pointer;
+}
+
+
+.post-txt{
+    color: #343638;
+    font-weight: 400;
+}
+
+.showMore-frame{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
